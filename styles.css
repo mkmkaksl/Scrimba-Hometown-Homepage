@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    background-image: url("Images/Dallas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+main {
+    color: whitesmoke;
+    margin: 0;
+    background-image: linear-gradient(#00004d, whitesmoke);
+    text-shadow: 0 0 3px black;
+}
+
+.card {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.card-nested {
+    width: 600px;
+    background-color: aliceblue;
+    border-right: 20px solid azure;
+    border-bottom: 20px solid azure;
+}
+
+.Images {
+    display: flex;
+    justify-content: space-around;
+}
+.Tourist_Spots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Location, #Description {
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.Tourist_Spots a {
+    color: lightblue;
+}
+
+#Location {
+    background-color: red;
+}
+
+#Description {
+    background-color: orange;
+    color: yellow;
+    text-shadow: 0 0 1px black;
+}
+
+main h3 {
+    margin: 0 0 20px;
+    padding: 20px 0;
+}
+
+.Tourist_Images {
+    width: 10em;
+    border-radius: 50%;
+    border: 10px solid blue;
+    transition: border-radius ease-out 500ms, width linear 500ms, border linear 500ms;
+}
+.Tourist_Images:hover {
+    border-radius: 0;
+    width: 12em;
+    border-color: yellow;
+}
+
+blockquote {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
