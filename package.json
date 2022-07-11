@@ -1,0 +1,24 @@
+{
+  "name": "lite-server",
+  "version": "1.0.0",
+  "description": "Description of Dallas, TX ",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkmkaksl/Scrimba-Hometown-Homepage.git"
+  },
+  "author": "Manoj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkmkaksl/Scrimba-Hometown-Homepage/issues"
+  },
+  "homepage": "https://github.com/mkmkaksl/Scrimba-Hometown-Homepage#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
